@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 const Navbars = () => {
-    //useSelector hooks subscribing the data
+    //useSelector hooks subscribing the data into the store
     const items = useSelector((state) => state.cart);
     return (
         <div
